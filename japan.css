@@ -1,0 +1,503 @@
+.parent{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    object-fit: cover;
+    
+
+}
+
+.header{
+    background: url(mountfuji.jpg) no-repeat center;
+    background-size: cover;
+    height: 725px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+}
+
+.h1{
+    font-size: 60px;
+}
+
+.japan{
+    font-size: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.explore {
+    background: #f9c5d1;                
+    color: #5a2a2a;                       
+    margin-top: 20px;
+    width: 220px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 0 12px rgba(255, 200, 220, 0.8);
+    transition: 1.0s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.explore:hover {
+    background: #f6a6b8;               
+    box-shadow: 0 0 16px rgba(255, 160, 200, 0.9);
+    transform: scale(1.05);         
+}
+
+
+#header2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+.tokyo1{
+    border-radius: 15px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    transition: 0.3s ease;
+    box-shadow: 0 0 12px rgba(143, 137, 137, 0.7);
+    cursor: pointer;
+}
+
+.tokyo1:hover, .kyoto1:hover, .hokkaido1:hover{
+    transform: scale(1.05);
+}
+
+.tokyo{
+    background:url(tokyo.webp);
+    align-items: last baseline;
+    height: 200px;
+    display: flex;
+    font: bold;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.des1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: gray;
+}
+
+.learnmore{
+    color: red;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 50px;
+
+}
+
+.kyoto1{
+    border-radius: 15px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    transition: 0.3s ease;
+    box-shadow: 0 0 12px rgba(143, 137, 137, 0.7);
+    cursor: pointer;
+    
+}
+
+.kyoto{
+    background:url(kyoto.avif);
+    align-items: last baseline;
+    height: 200px;
+    display: flex;
+    font: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.hokkaido1{
+    border-radius: 15px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    transition: 0.3s ease;
+    box-shadow: 0 0 12px rgba(143, 137, 137, 0.7);
+    cursor: pointer;
+    
+}
+
+.hokkaido{
+    background:url(hokkaido.webp);
+    align-items: last baseline;
+    height: 200px;
+    display: flex;
+    font: bold;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.popular {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 50px;
+    height: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.culture{
+    background:url(culture.jpg) no-repeat center ;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 12px rgba(143, 137, 137, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.language{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 10px
+    color #f5f5dc; 
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+.H1{
+    font-size: 60px;
+    color: #f5f5dc; 
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+.des2{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 50px;
+    color: #f5f5dc; 
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.H2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.photo{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+    
+.div1 {
+    grid-row: span 2 / span 2;
+    background: url(gate.webp) no-repeat center;
+    height: 200px;
+    border-radius: 20px;
+    background-size: cover;
+    transition: 0.3s ease;
+
+}
+
+.div1:hover{
+    transform: scale(1.1);
+}
+
+.div2 {
+    grid-row: span 2 / span 2;
+    background: url(traditional.jpeg) no-repeat center;
+    height: 200px;
+    border-radius: 20px;
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.div2:hover{
+    transform: scale(1.1);
+}
+
+
+
+.div3 {
+    grid-row: span 2 / span 2;
+    background: url(fence.jpg) no-repeat center;
+    height: 200px;
+    border-radius: 20px;
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.div3:hover{
+    transform: scale(1.1);
+}
+
+.div4 {
+    grid-row: span 2 / span 2;
+    background: url(fountain.jpg) no-repeat center;
+    height: 200px;
+    border-radius: 20px;
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.div4:hover{
+    transform: scale(1.1);
+}
+
+.div5 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+    background: url(bridge.jpg) no-repeat center;
+    height: 200px;
+    border-radius: 20px;
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.div5:hover{
+    transform: scale(1.1);
+}
+
+.div6 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+    background: url(lantern.jpg) no-repeat center;
+    height: 200px;
+    border-radius: 20px;
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.div6:hover{
+    transform: scale(1.1);
+}
+
+.div7 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+    background: url(temple.jpeg) no-repeat center;
+    height: 200px;
+    border-radius: 20px;
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.div7:hover{
+    transform: scale(1.1);
+}
+
+.div8 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+    background: url(waterfall.webp) no-repeat center;
+    height: 200px;
+    border-radius: 20px;
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.div8:hover{
+    transform: scale(1.1);
+}
+
+.tokyohead {
+    background:url(ShibuyaCrossing.jpg);
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: flex-end;
+    box-shadow: inset 0 -100px 40px rgba(0, 0, 0, 0.6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kyotohead {
+    background:url(kyoto.jpg);
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: flex-end;
+    box-shadow: inset 0 -100px 40px rgba(0, 0, 0, 0.6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.hokkaidohead {
+    background:url(hokkaido.jpg);
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: flex-end;
+    box-shadow: inset 0 -100px 40px rgba(0, 0, 0, 0.6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.tokyopage{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.tokyopage1{
+    margin-left: 30px;
+    margin-bottom: 1px;
+}
+
+.cultureandtradition, .placesandlandmarks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+    object-fit: cover;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 500px;
+}
+
+.placesandlandmarks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+    object-fit: cover;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 380px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tokyofood, .places{
+    border-radius: 20px;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 12px rgba(143, 137, 137, 0.7);
+}
+
+
+
+.tokyoculture, .landmarks{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 12px rgba(143, 137, 137, 0.7);
+}
+
+.food{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#text{
+    font-weight: bold;
+    font-size: larger;
+}
+
+#description{
+    color: rgb(185, 179, 179);
+}
+
+#red{
+    background-color: #FBE2E2;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    color: #CC0000;
+    border-radius: 5px;
+}
+
+#blue{
+    background-color: #DDEAFF;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    color: #2A66FF;
+    border-radius: 5px;
+}
+
+#green{
+    background-color: #C8F5C8;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    color: #268226;
+    border-radius: 5px;
+}
+
+#purple{
+    background-color: #E3CBFF;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    color: #5A27C7;
+    border-radius: 5px;
+}
